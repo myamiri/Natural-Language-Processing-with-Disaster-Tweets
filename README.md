@@ -5,13 +5,13 @@
 
 # Summary
 
-Reading data
+ - Reading data
 
-Exploratory Data Analysis
+- Exploratory Data Analysis
 
-Tokenization and Features Engineering
+- Tokenization and Features Engineering
 
-XGBoost baseline model
+- XGBoost baseline model
 
 
 
@@ -45,11 +45,11 @@ Each sample in the train and test set has the following information:
 # Modeling
 
 
-define a stratified K-Fold to preserve percentage of each target class
+- Define a stratified K-Fold to preserve percentage of each target class
 
-use RandomizedSearchCV for finding best hyperparameters
+- Use RandomizedSearchCV for finding best hyperparameters
 
-Fit XGBoost baseline model
+- Fit XGBoost baseline model
 
 
 # Result
