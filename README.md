@@ -6,8 +6,11 @@
 # Summary
 
 Reading data
+
 Exploratory Data Analysis
+
 Tokenization and Features Engineering
+
 XGBoost baseline model
 
 
@@ -32,9 +35,9 @@ We are predicting whether a given tweet is about a real disaster or not. If so, 
 
 Each sample in the train and test set has the following information:
 
-The text of a tweet
-A keyword from that tweet (although this may be blank!)
-The location the tweet was sent from (may also be blank)
+- The text of a tweet
+- A keyword from that tweet (although this may be blank!)
+- The location the tweet was sent from (may also be blank)
 
 
 
@@ -43,7 +46,9 @@ The location the tweet was sent from (may also be blank)
 
 
 define a stratified K-Fold to preserve percentage of each target class
+
 use RandomizedSearchCV for finding best hyperparameters
+
 Fit XGBoost baseline model
 
 
