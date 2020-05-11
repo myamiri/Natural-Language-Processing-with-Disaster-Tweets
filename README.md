@@ -5,7 +5,7 @@
 
 # Summary
 
- - Reading data
+- Reading data
 
 - Exploratory Data Analysis
 
