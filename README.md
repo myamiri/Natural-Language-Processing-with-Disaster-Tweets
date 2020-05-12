@@ -17,14 +17,13 @@
 
 # Problem
 
-Twitter has become an important communication channel in times of emergency. The ubiquitousness of smartphones enables people to announce an emergency they’re observing in real-time. Because of this, more agencies are interested in programatically monitoring Twitter (i.e. disaster relief organizations and news agencies.
-
+Twitter has become an important communication channel in times of emergency. The ubiquitousness of smartphones enables people to announce an emergency they’re observing in real-time. Because of this, more agencies are interested in programmatically monitoring Twitter (i.e. disaster relief organizations and news agencies.
 
 
 
 # Solution
 
-I used Natural Language Proccessing to predict which Tweets are about real disasters and which ones are not.
+I used Natural Language Processing to predict which Tweets are about real disasters and which ones are not.
 
 
 
@@ -45,7 +44,7 @@ Each sample in the train and test set has the following information:
 # Modeling
 
 
-- Define a stratified K-Fold to preserve percentage of each target class
+- Define a stratified K-Fold to preserve the percentage of each target class
 
 - Use RandomizedSearchCV for finding best hyperparameters
 
